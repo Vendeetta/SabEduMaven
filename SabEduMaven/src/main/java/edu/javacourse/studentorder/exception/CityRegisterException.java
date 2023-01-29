@@ -13,6 +13,9 @@ public class CityRegisterException extends Exception{
         this.code = code;
     }
 
+    public CityRegisterException(Exception e) {
+    }
+
     public String getCode() {
         return code;
     }
